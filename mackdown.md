@@ -105,3 +105,10 @@ sudo ufw status verbose
 | Usuarios | `sudo usermod -aG sudo` | Concede permisos de superusuario. |
 | Servicios | `sudo systemctl restart ssh` | Aplica la nueva configuración del servidor SSH. |
 | Seguridad | `sudo ufw status verbose` | Muestra el estado y las reglas activas del cortafuegos. |
+
+
+## Recomendaciones de seguridad
+
+1. No subir credenciales, claves API ni contraseñas al repositorio.
+2. Mantener actualizado el archivo `.gitignore` para omitir archivos sensibles y temporales.
+3. Verificar los cambios mediante `git diff` antes de confirmar cualquier commit.
