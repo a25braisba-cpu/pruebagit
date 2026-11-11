@@ -112,3 +112,8 @@ sudo ufw status verbose
 1. No subir credenciales, claves API ni contraseñas al repositorio.
 2. Mantener actualizado el archivo `.gitignore` para omitir archivos sensibles y temporales.
 3. Verificar los cambios mediante `git diff` antes de confirmar cualquier commit.
+
+## Información del proyecto
+Esta documentación se ha elaborado utilizando Markdown.
+El control de versiones se realiza mediante Git
+y el repositorio remoto se encuentra alojado en GitHub.
